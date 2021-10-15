@@ -5,19 +5,6 @@ import ToggleButton from '@mui/material/ToggleButton';
 import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 import TextField from '@mui/material/TextField';
 
-const customStyles = {
-  content: {
-    top: '50%',
-    left: '50%',
-    right: 'auto',
-    bottom: 'auto',
-    marginRight: '-50%',
-    transform: 'translate(-50%, -50%)',
-  },
-};
-
-// Modal.setAppElement('#yourAppElement');
-
 function App() {
 
   const [alignment, setAlignment] = React.useState('good');
@@ -36,9 +23,9 @@ function App() {
             exclusive
             onChange={handleChange}
           >
-            <ToggleButton value="good"><i class="far fa-smile-beam"></i></ToggleButton>
-            <ToggleButton value="ok"><i class="far fa-meh"></i></ToggleButton>
             <ToggleButton value="bad"><i class="far fa-frown"></i></ToggleButton>
+            <ToggleButton value="ok"><i class="far fa-meh"></i></ToggleButton>
+            <ToggleButton value="good"><i class="far fa-smile-beam"></i></ToggleButton>
           </ToggleButtonGroup>
         </div>
         <div class="col" id="formDiv">
