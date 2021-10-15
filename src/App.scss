@@ -76,3 +76,18 @@
   transform: scale(1.2);
 }
 
+#successTick {
+  transform: scale(1.5);
+  color: green;
+}
+
+#redo {
+  transform: scale(1.2);
+  color: gray;
+  padding-top: 20px;
+  transition: transform .2s;
+}
+
+#redo:hover {
+  transform: scale(1.4);
+}
