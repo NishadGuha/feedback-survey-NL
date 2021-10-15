@@ -18,6 +18,7 @@ function App() {
         <h3 class="col" id="header">Hoe heb je dit applicatie ervaren?</h3>
         <div class="col" id="emojiButtons">
           <ToggleButtonGroup
+            class="toggleButton"
             color="primary"
             value={alignment}
             exclusive
