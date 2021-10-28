@@ -15,7 +15,7 @@ function Survey() {
 
     return (
         <div class="body">
-        <h3 class="col" id="header">Hoe heb je dit applicatie ervaren?</h3>
+        <h3 class="col" id="header">Hoe heb je deze applicatie ervaren?</h3>
         <ToggleButtons />
         <div class="col" id="formDiv">
           <form>
